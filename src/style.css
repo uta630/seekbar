@@ -1,0 +1,39 @@
+/* seek content */
+#seek-wrap {
+    position: relative;
+    width: 960px;
+    margin: 68px auto;
+}
+#seek-wrap h1 {
+    margin: 24px 0;
+    text-align: center;
+}
+#seek-content-bar {
+    background: rgba(135,135,135,.5);
+    width: 100%;
+    height: .3em;
+    cursor: pointer;
+}
+#seek-content-bar-gauge {
+    display: block;
+    max-width: 100%;
+    width: 0;
+    height: 100%;
+    background: #39f;
+}
+#seek-content-percent {
+    margin: 24px 0;
+    text-align: center;
+}
+/* seek window */
+#seek-window {
+    display: none;
+    position: absolute;
+    overflow: hidden;
+    margin: 0 auto;
+}
+#seek-window img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
